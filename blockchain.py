@@ -53,3 +53,5 @@ class Blockchain:
     def last_block(self):
         """Возвращает последний блок в цепочке."""
         return self.chain[-1]
+
+        #laalllal
