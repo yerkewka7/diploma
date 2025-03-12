@@ -3,7 +3,7 @@ from collections import defaultdict
 import re
 
 LOG_FILE = "logs/webserver.log"
-THRESHOLD = 5  # Если запросов больше 5 - подозрительный IP
+THRESHOLD = 5  # Если запросов больше 5 - подозрительный IP домлмю
 
 
 def parse_logs(file_path):

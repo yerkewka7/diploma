@@ -1,6 +1,8 @@
 from collections import defaultdict
 import time
 
+#lala
+
 def analyze_logs(chain, threshold=10, time_window=60):
     """
     Анализирует логи в цепочке блоков и ищет аномалии.

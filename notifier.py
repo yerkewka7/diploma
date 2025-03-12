@@ -9,3 +9,5 @@ def notify_admin(anomalies):
             print(f"IP: {ip} - Запросов: {count}")
     else:
         print("Аномалий не обнаружено.")
+
+#lala

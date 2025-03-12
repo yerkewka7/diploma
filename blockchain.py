@@ -1,6 +1,7 @@
 import hashlib
 import json
 from time import time
+#lala
 
 class Blockchain:
     def __init__(self):
