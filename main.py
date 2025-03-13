@@ -5,6 +5,7 @@ from notifier import notify_admin
 import csv
 import os
 
+
 app = Flask(__name__)
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 blockchain = Blockchain(filepath="blockchain.json")
