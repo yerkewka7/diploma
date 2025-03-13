@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
-from blockchain import Blockchain
-from log_analyzer import analyze_logs
-from notifier import notify_admin
+from blockchain.blockchain import Blockchain
+from blockchain.blockchain import analyze_logs
+from blockchain.notifier import notify_admin
 #lala
 
 app = Flask(__name__)
