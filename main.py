@@ -1,10 +1,9 @@
 from flask import Flask, request, jsonify
 from blockchain import Blockchain
-from log_analyzer import analyze_logs
+from analyzer import analyze_logs
 from notifier import notify_admin
 import csv
 import os
-
 
 app = Flask(__name__)
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
